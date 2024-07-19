@@ -1,6 +1,6 @@
 package kapiteleins;
 
-public class UebungEinsEinsEins {
+public class UebungEinsEinsEinsss {
     /**
      * Die Methode gibt "Aye Captain" aus.
      * 

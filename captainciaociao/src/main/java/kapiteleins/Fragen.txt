@@ -1,0 +1,9 @@
+1.1.1)
+Frage
+Kann man die Datei Application.class von einem Windows-Rechner auf Linux
+kopieren und dort mit dem Programm java zur Ausführung bringen?
+
+1.1.2)
+Frage
+Welche Software muss auf dem Rechner installiert sein?
+
