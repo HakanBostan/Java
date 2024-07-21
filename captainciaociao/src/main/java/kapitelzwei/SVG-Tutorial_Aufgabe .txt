@@ -1,0 +1,29 @@
+Aufgabe: Verändere auf der Webseite die Größe des Kreises.
+Link zur Webseite: https://www.w3schools.com/graphics/tryit.asp?filename=trysvg_circle1
+
+gegebene Werte auf der Webseite 
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>SVG circle Element</h2>
+
+<svg height="100" width="100" xmlns="http://www.w3.org/2000/svg">
+  <circle r="45" cx="50" cy="50" fill="red" />
+  Sorry, your browser does not support inline SVG.  
+</svg> 
+ 
+</body>
+</html>
+
+
+
+Lösung:
+
+Z 12 stellt den Container da, in der das Kreis abgebildet werden kann.
+Z 13 bestimmt größe und position von dem Kreis. 
+    -> r steht für Radius und bestimmt die Größe.
+    -> cx steht für die X Achse im Koordinatensystem, bewegt den Kreis nach links und rechts.
+    -> cy steht für die Y Achse im Koordinatensystem, bewegt den Kreis nach oben oder unten.
+
