@@ -1,5 +1,7 @@
 package kapitelzwei;
 
+import java.util.Random;
+
 public class kapitelZweiMain {
 
     public static void main(String[] args) {
@@ -11,6 +13,10 @@ public class kapitelZweiMain {
         uebungZweiZweiEins a2 = new uebungZweiZweiEins();
         // Aufgabe 2.2.1
         //a2.ausgabe2(50,50,15.123);
+
+
+        uebungZweiZweiVier a3 = new uebungZweiZweiVier();
+        // a3.ausgabe3(30, 30);
 
     }
 
