@@ -11,7 +11,7 @@ public class uebungZweiZweiVier {
      * @return n.A.
      */
 
-    public void ausgabe3(int x, int y) {
+    public void ausgabe4(int x, int y) {
 
         Random rand = new Random();
 

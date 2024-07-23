@@ -15,8 +15,12 @@ public class kapitelZweiMain {
         //a2.ausgabe2(50,50,15.123);
 
 
-        uebungZweiZweiVier a3 = new uebungZweiZweiVier();
+        uebungZweiZweiVier a4 = new uebungZweiZweiVier();
         // a3.ausgabe3(30, 30);
+
+        uebungZweiZweiSechs a6 = new uebungZweiZweiSechs();
+        a6.ausgabe4();
+    
 
     }
 
