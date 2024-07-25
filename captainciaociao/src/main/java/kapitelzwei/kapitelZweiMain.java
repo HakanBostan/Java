@@ -26,8 +26,11 @@ public class kapitelZweiMain {
 
         uebungZweiDreizwei a232 = new uebungZweiDreizwei();
         // Aufgabe 2.3.2
-        a232.ausgabe5();
-    
+        // a232.ausgabe5();
+
+        String str1 = "12345";
+
+      
 
     }
 
