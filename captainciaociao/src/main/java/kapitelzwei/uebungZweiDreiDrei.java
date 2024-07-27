@@ -15,37 +15,38 @@ public class uebungZweiDreiDrei {
 
         System.out.println("gib 2 Zahlen zwischen 0 und 99 an");
         String x = new Scanner(System.in).nextLine();
-        String y = new Scanner(System.in).nextLine();
+        String y = new Scanner(System.in).nextLine();    
 
-        // if( x.length() > 2){
+        for (int i = 0; i <= 2; i++) {
 
-        //     int temp1;
-            
-        //     for (int i = 1; i < x.length(); i++) {
-        //         char digit = x.charAt(i);
-    
-        //         if (digit == y.charAt(i)) {
-    
-                    
-    
-        //         }
-    
-        //     }
-        // }
+            for (int j = 0; j <= 2; j++) {
 
-        for (int i = 0; i < x.length(); i++) {
-            char digit = x.charAt(i);
+                char digit1 = x.charAt(x.length()-1);
+                int temp1 = -1;
 
-            if (digit == y.charAt(i)) {
+                if(digit1 == y.charAt(y.length()- temp1)){
+                    System.out.println( x + " und " + y + " haben eine gemeinsame Ziffer");
+                    return true;
+                };
 
+                temp1 -= 1;
+            }
+
+            char digit2 = x.charAt(x.length()-2);
+            int temp2 = -1;
+            if (digit2 == y.charAt(y.length()-temp2)) {
+                
                 System.out.println( x + " und " + y + " haben eine gemeinsame Ziffer");
                 return true;
 
             }
+            temp2 -= 1;
 
         }
         System.out.println( x + " und " + y + " haben keine gemeinsame Ziffer");
         return false;
+
+    
 
     }
 
