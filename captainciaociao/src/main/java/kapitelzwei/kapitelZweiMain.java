@@ -30,7 +30,9 @@ public class kapitelZweiMain {
 
         String str1 = "12345";
 
-      
+        uebungZweiDreiDrei a233 = new uebungZweiDreiDrei();
+
+        a233.ausgabe6();
 
     }
 
