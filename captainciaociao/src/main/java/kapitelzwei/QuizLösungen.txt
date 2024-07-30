@@ -1,0 +1,6 @@
+Quiz 2.2.2 Wertebereiche einhalten:
+-> was ist das ergebnis des Ausdrucks 1000000 * 1000000 in java, was fällt auf warum entsteh dieses ergebnis
+
+Antwort: abhängig vom Datentyp kommen dort 2 ergebnisse. Bei Int wird ein minuswert geliefert, und bei Long gibt er die Korrekte Summe aus. Das liegt daran,
+das dass Ergebnis größer als der maximalen int wert ist. Es kommt zu einem Integer Overflow. 
+
