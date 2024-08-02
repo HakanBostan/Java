@@ -17,8 +17,14 @@ public class uebungZweiZweiVier {
 
         double r = rand.nextInt(10) + 10;
 
+               
+        
         System.out.printf("<svg height=\"400\" width=\"1000\"> %n <circle cx=\"%d\" cy=\"%d\" r=\"%.3f\" /> %n</svg>",
                 x, y, r);
+
+
+
+
     }
 
 }

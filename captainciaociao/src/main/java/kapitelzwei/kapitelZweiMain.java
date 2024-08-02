@@ -32,7 +32,10 @@ public class kapitelZweiMain {
 
         uebungZweiDreiDrei a233 = new uebungZweiDreiDrei();
 
-        a233.ausgabe6();
+        // a233.ausgabe6();
+
+        uebungZweiDreiVier a234 = new uebungZweiDreiVier();
+        a234.ausgabe7();
 
     }
 
