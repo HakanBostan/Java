@@ -37,6 +37,8 @@ public class kapitelZweiMain {
         uebungZweiDreiVier a234 = new uebungZweiDreiVier();
         a234.ausgabe7();
 
+        
+
     }
 
 }
