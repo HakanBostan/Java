@@ -26,7 +26,7 @@ public class uebungZweiFuenfEins {
             counter1 = counter1 + 10;
             counter2 ++;
         }
-
+        
     }
     
 }
