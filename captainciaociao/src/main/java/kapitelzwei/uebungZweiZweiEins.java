@@ -9,7 +9,7 @@ public class uebungZweiZweiEins {
      * @return n.A.
      */
 
-    public void ausgabe2(int x, int y, double r) {
+    public void a221(int x, int y, double r) {
         System.out.printf("<svg height=\"400\" width=\"1000\"> %n <circle cx=\"%d\" cy=\"%d\" r=\"%.3f\" /> %n</svg>",
                 x, y, r);
     }

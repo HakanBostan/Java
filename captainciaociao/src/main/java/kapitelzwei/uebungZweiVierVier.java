@@ -11,7 +11,7 @@ public class uebungZweiVierVier {
      * @return n.A.
      */
 
-    public void ausgabe11(){
+    public void a244(){
 
     Random rand = new Random();
     int randomNum = rand.nextInt(3) + 1;

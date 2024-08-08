@@ -3,7 +3,7 @@ package kapitelzwei;
 import java.util.Random;
 
 public class uebungZweiFuenfZwei {
-    public void ausgabe14() {
+    public void a252() {
 
         /**
          * 

@@ -13,7 +13,7 @@ public class uebungZweiFuenfDrei {
      */
 
 
- public void ausgabe15() {
+ public void a253() {
 
         System.out.println("Gib eine Zahl an");
 

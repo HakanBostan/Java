@@ -11,7 +11,7 @@ public class uebungZweiVierSechs {
      */
 
 
-     public void ausgabe12(String str) {
+     public void a246(String str) {
 
         if(str.equals("Ay")){
             System.out.println("Keep it Up!");

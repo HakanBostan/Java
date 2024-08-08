@@ -11,7 +11,7 @@ public class uebungZweiFuenfEins {
      */
 
 
-    public void ausgabe13() {
+    public void a251() {
         int counter1 = 0;
         int counter2 = 0;
         String string1 = "<svg height=\"200\" width=\"200\">";

@@ -9,7 +9,7 @@ public class uebungZweiVierDrei {
      * @return n.A.
      */
 
-    public void ausgabe10() {
+    public void a243() {
         System.out.print("Gib einen float-Wert ein: ");
         float fvalue = new java.util.Scanner(System.in).nextFloat();
         int vorkomma = (int) fvalue;
