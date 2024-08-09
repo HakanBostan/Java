@@ -18,5 +18,5 @@ public class uebungZweiFuenfSechs {
         }
         System.out.println(fak);
     }
-    
+
 }

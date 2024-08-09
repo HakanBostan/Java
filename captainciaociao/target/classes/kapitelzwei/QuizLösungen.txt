@@ -4,3 +4,9 @@ Quiz 2.2.2 Wertebereiche einhalten:
 Antwort: abhängig vom Datentyp kommen dort 2 ergebnisse. Bei Int wird ein minuswert geliefert, und bei Long gibt er die Korrekte Summe aus. Das liegt daran,
 das dass Ergebnis größer als der maximalen int wert ist. Es kommt zu einem Integer Overflow. 
 
+
+
+
+Quiz 2.5.5 Wie viele Sternchen?
+-> A = 12, B = 0;
+

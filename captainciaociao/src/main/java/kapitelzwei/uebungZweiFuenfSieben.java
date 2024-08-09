@@ -6,13 +6,13 @@ public class uebungZweiFuenfSieben {
 
     /**
      * 
-     * Die Methode prüft ob die eingegebene Zahl eine Fakultät ist. 
+     * Die Methode prüft ob die eingegebene Zahl eine Fakultät ist.
      * 
      * @param int n
      * @return n.A.
      */
- 
-     public void a257() {
+
+    public void a257() {
         System.out.print("gib eine Zahl ein und prüfe ob Sie eine Fakultät ist: ");
         Scanner scan = new Scanner(System.in);
         int zahl = scan.nextInt();
@@ -26,7 +26,6 @@ public class uebungZweiFuenfSieben {
             }
         }
 
-
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
                 if (i == zahl) {
@@ -36,9 +35,7 @@ public class uebungZweiFuenfSieben {
                 i *= j;
             }
 
-
         }
-
 
     }
 }
