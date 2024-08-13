@@ -13,8 +13,7 @@ public class uebungFuenfZwoelf {
      public void a2512(){
         int breite = 8;
         int haelfte = breite / 2;
-        int ersteHaelfte = 4;
-        int zweiteHaelfte = 4;
+       
 
         String wspac = " ";
         String star = "*";
