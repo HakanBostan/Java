@@ -10,40 +10,53 @@ public class uebungFuenfZwoelf {
      * @return n.A.
      */
 
-     public void a2512(){
+    public void a2512() {
         int breite = 8;
         int haelfte = breite / 2;
-       
+        int ersteHaelfte = 4;
+        int ersteHaelfteHealfte = ersteHaelfte - 2;
+        int zweiteHaelfte = 4;
+        int zweiteHaelfteHaelfte = zweiteHaelfte + 1;
 
-        String wspac = " ";
-        String star = "*";
-
+        char wspac = ' ';
+        char star = '*';
 
         for (int i = 1; i <= breite; i += 2) {
             for (int j = 1; j <= 8; j++) {
 
-                if (j == ersteHaelfte) {
+                if (j == haelfte) {
                     System.out.print(star);
-
-                }
-                if (j == zweiteHaelfte) {
+                } else if (j < haelfte && j > ersteHaelfteHealfte && i > 1) {
                     System.out.print(star);
-
-                    if (j == 4) {
-                        System.out.print(star);
-                        ersteHaelfte--;
-                        zweiteHaelfte++;
-                    }
-
-
+                    ersteHaelfteHealfte--;
+                } else if (j >= haelfte && j < zweiteHaelfteHaelfte && i > 1) {
+                    System.out.print(star);
+                } else {
+                    System.out.print(wspac);
                 }
-                System.out.print(wspac);
             }
+            zweiteHaelfteHaelfte++;
             System.out.println();
         }
 
-     }
+        // ########################## Chat GPT Lösung ##############################
+        // char wspac = ' ';
+        // char star = '*';
+        //
+        // int breite = 8;
+        // int haelfte = breite / 2;
+        //
+        // for (int i = 1; i <= haelfte; i++) {
+        // for (int j = 1; j <= breite; j++) {
+        // if (j >= haelfte - (i - 1) && j <= haelfte + (i - 1)) {
+        // System.out.print(star);
+        // } else {
+        // System.out.print(wspac);
+        // }
+        // }
+        // System.out.println();
+        // }
 
-
+    }
 
 }
