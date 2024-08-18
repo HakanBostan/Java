@@ -35,9 +35,12 @@ public class kapitelZweiMain {
         // a233.ausgabe6();
 
         uebungZweiDreiVier a234 = new uebungZweiDreiVier();
-        a234.ausgabe7();
+        // a234.ausgabe7();
 
         
+        // Aufgbae 2512
+        uebungZweiFuenfZwoelf a2512 = new uebungZweiFuenfZwoelf();
+        a2512.a2512();
 
     }
 
